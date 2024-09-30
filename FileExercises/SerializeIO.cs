@@ -40,9 +40,9 @@ namespace FileExercises
             Contact jane = new Contact("Jane", "jane@email.com", 3456);
 
             // Write each contact to file
-            bob.Serialize(@"contacts\bob.txt");
-            fred.Serialize(@"contacts\fred.txt");
-            jane.Serialize(@"contacts\jane.txt");
+            bob.Serialize(@"bob.txt");
+            fred.Serialize(@"fred.txt");
+            jane.Serialize(@"jane.txt");
 
             // Clear out contacts
             bob = new Contact();
@@ -50,9 +50,9 @@ namespace FileExercises
             jane = new Contact();
 
             // Load contacts from file
-            bob.DeSerialize(@"contacts\bob.txt");
-            fred.DeSerialize(@"contacts\fred.txt");
-            jane.DeSerialize(@"contacts\jane.txt");
+            bob.DeSerialize(@"bob.txt");
+            fred.DeSerialize(@"fred.txt");
+            jane.DeSerialize(@"jane.txt");
 
             // Print contacts
             bob.Print();
