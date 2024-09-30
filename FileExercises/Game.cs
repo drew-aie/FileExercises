@@ -13,6 +13,9 @@ namespace FileExercises
         {
             TextIO text = new TextIO();
             text.Run();
+
+            SerializeIO serialize = new SerializeIO();
+            serialize.Run();
         }
     }
 }
